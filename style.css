@@ -1,5 +1,5 @@
 body {
-    background-color: #FFB6C1;
+    background: #FAFAFA;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
 .dino {
     width: 60px;
     height: 60px;
-    background: #FF1493;
+    background-image: url(dino.png);
     position: absolute;
     bottom: 0;
 }
@@ -20,12 +20,33 @@ h1 {
     width: 60px;
     height: 60px;
     bottom: 0;
-    background: #9370DB;
+    background-image: url(cactus.png);
 }
 
-h2 {
+.game-over {
+    margin: 50px 0;
     text-align: center;
-    color: #8B008B;
+    color: #FF1493;
+    font-family: Arial, serif;
     font-size: 150px;
-    font-style: italic;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0px;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    -webkit-animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
 }
