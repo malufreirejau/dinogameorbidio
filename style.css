@@ -22,3 +22,10 @@ h1 {
     bottom: 0;
     background: #9370DB;
 }
+
+h2 {
+    text-align: center;
+    color: #8B008B;
+    font-size: 150px;
+    font-style: italic;
+}
