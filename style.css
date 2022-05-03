@@ -1,16 +1,16 @@
 body {
-    background-color: lightpink;
+    background-color: #FFB6C1;
 }
 
 h1 {
     text-align: center;
-    color: deeppink;
+    color: #FF1493;
 }
 
 .dino {
     width: 60px;
     height: 60px;
-    background: deeppink;
+    background: #FF1493;
     position: absolute;
     bottom: 0;
 }
@@ -20,5 +20,5 @@ h1 {
     width: 60px;
     height: 60px;
     bottom: 0;
-    background: mediumpurple;
+    background: #9370DB;
 }
