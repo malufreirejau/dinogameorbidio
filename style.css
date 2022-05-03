@@ -2,6 +2,11 @@ body {
     background-color: lightpink;
 }
 
+h1 {
+    text-align: center;
+    color: deeppink;
+}
+
 .dino {
     width: 60px;
     height: 60px;
